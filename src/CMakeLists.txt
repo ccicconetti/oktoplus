@@ -45,7 +45,7 @@ else()
   #SET(PRJ_NO_WARNINGS "-Wno-overloaded-virtual -Wno-deprecated-declarations -Wno-vla -Wno-vla-extension -Wno-long-long -Wno-maybe-uninitialized -Wno-unused-local-typedefs")
 endif()
 
-#set (CMAKE_CXX_STANDARD 17) # c++17 (old version of cmake does not supports c++17
+set (CMAKE_CXX_STANDARD 17)
 
 set(PRJ_COMMONS "-Wall -Wextra -Wpedantic -Werror -pthread -fPIC -fno-strict-aliasing ${CLANG_SPECIFIC_WARNINGS} -Wcast-qual -std=c++17")
 
